@@ -1,0 +1,5 @@
+english_no  = int(input())
+english_rollno = set(map(int,input().split()))
+french_no = int(input())
+french_rollno = set(map(int,input().split()))
+print(len(english_rollno.union(french_rollno)))
